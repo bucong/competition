@@ -1,0 +1,31 @@
+<!--pages/sign/sign.wxml-->
+<include src="../nav/nav.wxml" />
+<view class="title">{{act_name}}</view>
+<view class="actInfo">
+  <view>
+    活动时间：
+    <text>{{act_time}}</text>
+  </view>
+  <view>
+    活动地点：
+    <text>{{act_address}}</text>
+  </view>
+  <view class="select">
+    <picker bindchange="bindPickerChange" value="{{group}}" range="{{array}}">
+      <view>
+        {{array[group]}}
+        <image class="fr" src="../image/select.png"></image>
+      </view>
+    </picker>
+  </view>
+</view>
+<view class="sign-people">
+  <view class="sign-title">
+    报名人员
+    <view class="add" bindtap="add">+</view>
+  </view>
+  <view style="display:{{show}}">姓名：{{name}}</view>
+  <view style="display:{{show}}">组别：{{array[group]}}</view>
+  <view style="display:{{show}}">证件：{{idCard}}</view>
+</view>
+<button bindtap="sign">确认报名</button>

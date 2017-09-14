@@ -1,0 +1,30 @@
+<!--pages/groupDetail/groupDetail.wxml-->
+<include src="../nav/nav.wxml" />
+<view class="hr"></view>
+<view class="info">
+  <view>队伍名称
+    <text>{{group_name}}</text>
+  </view>
+  <view>队伍人数
+    <text>{{group_num}}</text>
+  </view>
+  <view>队伍类别
+    <text>{{group_type}}</text>
+  </view>
+</view>
+<view class="add-friend">
+  添加队友
+  <view class="add fr" bindtap="add">+</view>
+</view>
+<view class="mod-form">
+  <view class="mod-title">
+    <text>名称</text>
+    <text>手机号</text>
+  </view>
+  <view class="mod-content" wx:for="{{mod}}">
+  <view>
+    <text>{{item.name}}</text>
+    <text>{{item.phone}}</text>
+  </view>
+  </view>
+</view>

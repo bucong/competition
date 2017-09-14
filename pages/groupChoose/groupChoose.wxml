@@ -1,0 +1,16 @@
+<!--pages/groupChoose/groupChoose.wxml-->
+<view class="hr"></view>
+<view class="group">
+  <view class="input">
+    <input type="text" placeholder="请填写队伍名称" bindinput="inputName" />
+  </view>
+  <view class="select">
+    <picker bindchange="bindPickerChange" value="{{group}}" range="{{array}}">
+      <view>
+        {{array[group]}}
+        <image class="fr" src="../image/select.png"></image>
+      </view>
+    </picker>
+  </view>
+</view>
+<button bindtap="sub">提交</button>

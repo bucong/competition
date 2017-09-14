@@ -1,0 +1,14 @@
+<!--pages/addfriend/addfriend.wxml-->
+<include src="../nav/nav.wxml" />
+<view class="hr"></view>
+<form>
+  <view class="add-friend">
+    <view>
+      <input type="text" name="name" bindinput="name" placeholder="输入队友姓名" />
+    </view>
+    <view>
+      <input type="number" name="phone" bindinput="phone" placeholder="输入队友手机号" />
+    </view>
+  </view>
+  <button bindtap="sub">保存</button>
+</form>

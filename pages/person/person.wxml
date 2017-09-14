@@ -1,0 +1,18 @@
+<!--pages/person/person.wxml-->
+<include src="../nav/nav.wxml" />
+<view class="hr"></view>
+<view class="info">
+  <view>*{{userName}}</view>
+  <view class="select">
+    <picker bindchange="bindPickerChange" value="{{sex}}" range="{{array}}">
+      <view>
+        {{array[sex]}}
+        <image class="fr" src="../image/select.png"></image>
+      </view>
+    </picker>
+  </view>
+  <view>{{idCard}}</view>
+  <view>{{phone}}</view>
+  <view style="color:{{color}}">{{email}}</view>
+</view>
+<button bindtap="back">返回</button>

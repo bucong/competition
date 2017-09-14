@@ -1,0 +1,33 @@
+/* pages/pay/pay.wxss */
+.pay{
+  margin-top: 30rpx;
+  background: #fff;
+  font-size: 30rpx;
+  padding-left: 30rpx;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+}
+.pay view{
+  height: 84rpx;
+  line-height: 84rpx;
+  border-top: 1px solid #c1c1c1;
+}
+.pay view:first-child{
+  border: none;
+}
+.pay-style{
+  padding-left: 16rpx;
+  position: relative;
+}
+.pay .icon{
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+}
+.pay .select{
+  width: 32rpx;
+  height: 50rpx;
+  position: absolute;
+  top: 16rpx;
+  right: 20rpx;
+}

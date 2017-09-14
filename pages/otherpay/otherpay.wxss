@@ -1,0 +1,104 @@
+/* pages/otherpay/otherpay.wxss */
+.show-img{
+  position: relative;
+  display: block;
+  width: 750rpx;
+  height: 380rpx;
+}
+.list-discribe{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 730rpx;
+  height: 100rpx;
+  padding: 40rpx 0 0 20rpx;
+  background:linear-gradient(to bottom, rgba(51, 51, 51, 0) 0%, rgba(51, 51, 51, 0.6) 100%);
+  z-index: 50;
+}
+.act-status{
+  display: inline-block;
+  width: 72rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  padding: 0 12rpx;
+  font-size: 24rpx;
+  background: #5fc155;
+  color: #fff;
+  border-radius: 8rpx;
+}
+.list-info{
+  display: block;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #fff;
+  font-weight: bold;
+  font-size: 36rpx;
+}
+.time{
+  display: inline-block;
+  color: #fff;
+  font-size: 24rpx;
+  margin-left: 10rpx;
+}
+.list-img{
+  width: 750rpx;
+  height: 380rpx;
+}
+
+.help{
+  padding: 20rpx;
+  background: #fff;
+  border-bottom: 1px solid #c1c1c1;
+}
+.help image{
+  width: 136rpx;
+  height: 136rpx;
+}
+.title{
+  padding-bottom: 20rpx;
+}
+.title view{
+  display: inline-block;
+  padding-left: 20rpx;
+}
+.title text{
+  display: block;
+}
+.title text:nth-child(1){
+  font-size: 48rpx;
+  line-height: 64rpx;
+  font-weight: bold;
+}
+.title text:nth-child(2){
+  font-size: 26rpx;
+  line-height: 36rpx;
+  color: #666;
+}
+.title text:nth-child(3){
+  font-size: 30rpx;
+  line-height: 40rpx;
+}
+.declar,.change{
+  font-size: 30rpx;
+  line-height: 40rpx;
+  color: #666;
+}
+button{
+  position: fixed;
+  bottom: 0;
+  width: 750rpx;
+  background: #f00;
+  color: #fff;
+  font-size: 36rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-radius: 0;
+}
+.share{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 750rpx;
+  height: 100%;
+  z-index: 99;
+}

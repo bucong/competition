@@ -1,0 +1,22 @@
+/* pages/signSuccess/signSuccess.wxss */
+page{
+  background: #fff;
+}
+icon{
+  display: block;
+  width: 200rpx;
+  margin: 72rpx auto;
+}
+view{
+  font-size: 40rpx;
+  text-align: center;
+  margin-bottom: 60rpx;
+}
+navigator{
+  font-size: 28rpx;
+  display: inline;
+  color: rgb(85,26,139);
+}
+navigator:first-child{
+  margin-right: 20rpx;
+}

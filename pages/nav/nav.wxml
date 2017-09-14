@@ -1,0 +1,12 @@
+<!--pages/nav/nav.wxml-->
+<image class="navimg" bindtap="showNav" src="../image/nav.png"></image>
+<view class="nav-box" bindtap="hideNav" style="display:{{show_nav}}">
+  <view class="main-nav">
+    <navigator url="../index/index" redirect>活动列表</navigator>
+    <navigator url="../search/search" redirect>报名查询</navigator>
+    <navigator url="../payment/payment" redirect>支付列表</navigator>
+    <navigator url="../person/person">个人信息</navigator>
+    <navigator url="../group/group" redirect>队伍列表</navigator>
+    <view class="nav-arrow"></view>
+  </view>
+</view>

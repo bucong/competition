@@ -1,0 +1,52 @@
+<!--pages/actDetail/actDetail.wxml-->
+<include src="../nav/nav.wxml" />
+<view class="show-img">
+  <image class="list-img" src="../image/list{{img}}.jpg"></image>
+    <view class="list-discribe">
+      <view class="act-status">{{act_status}}</view>
+      <text class="time-part">{{time_part}}</text>
+      <text class="list-info">{{list_info}}</text>
+    </view>
+</view>
+<view class="detail-info">
+  <view>
+    <text class="tab-title">活动时间：</text>
+    <text class="tab-cont">{{act_time}}</text>
+  </view>
+  <view>
+    <text class="tab-title">活动地点：</text>
+    <navigator url="../map/map">
+      <image src="../image/location-grey.png"></image>
+      <text class="tab-cont">{{act_address}}</text>
+    </navigator>
+  </view>
+  <view>
+    <text class="tab-title fl">组别：</text>
+    <view class="group" wx:for="{{act_group}}">
+      <text class="tab-cont">{{item.group}}</text>
+      <text class="price fr">￥{{item.money}}</text>
+    </view>
+  </view>
+</view>
+<!--tab切换-->
+<view class="tab">
+  <view class="tab-nav flex ar">
+    <view data-nav="introduce" class="{{nav=='introduce' ? 'bc_red':''}}" bindtap="nav">活动介绍</view>
+    <view data-nav="line" class="{{nav=='line' ? 'bc_red':''}}" bindtap="nav">活动线路</view>
+    <view data-nav="contact" class="{{nav=='contact' ? 'bc_red':''}}" bindtap="nav">联系方式</view>
+    <view data-nav="risk" class="{{nav=='risk' ? 'bc_red':''}}" bindtap="nav">风险告知</view>
+  </view>
+  <view class="nav-ass" style="display:{{showIntroduce}};">
+    {{introduce}}
+  </view>
+  <view class="nav-ass" style="display:{{showLine}};">
+    {{line}}
+  </view>
+  <view class="nav-ass" style="display:{{showContact}};">
+    {{contact}}
+  </view>
+  <view class="nav-ass" style="display:{{showRisk}};">
+    {{risk}}
+  </view>
+</view>
+<button style="display:{{sign}};" bindtap="sign">我要报名</button>

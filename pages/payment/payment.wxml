@@ -1,0 +1,15 @@
+<!--pages/payment/payment.wxml-->
+<include src="../nav/nav.wxml" />
+<view class="hr"></view>
+<view class="group">
+  <view class="record flex" wx:for="{{act}}">
+    <view bindtap="pay">{{item.act_name}} [{{item.group}}]</view>
+    <image src="../image/select.png"></image>
+    <view bindtap="deleteRecord">删除</view>
+  </view>
+  <view class="norecord" style="display:{{norecord}}">
+    <icon type="warn" size="100" />
+    <text>暂时没有需要支付的报名记录！</text>
+  </view>
+</view>
+

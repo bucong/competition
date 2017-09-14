@@ -1,0 +1,119 @@
+/**index.wxss**/
+.head{
+  height: 90rpx;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  font-size: 30rpx;
+  background: #fff;
+}
+.head view{
+  text-align: center;
+  width: 250rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+}
+.bc_red{
+  color: red;
+}
+.head-ass{
+  position: fixed;
+  top: 90rpx;
+  width: 750rpx;
+  height: 1116rpx;
+  background: rgba(0,0,0,.3);
+  z-index: 100;
+}
+.head-ass view{
+  font-size: 30rpx;
+  padding-left: 20rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  text-indent: 70rpx;
+  border-bottom: 1px solid #c1c1c1;
+  background: #fff;
+  position: relative;
+}
+.flex-item image{
+  width: 36rpx;
+  height: 26rpx;
+  display: none;
+  position: absolute;
+  top: 20rpx;
+  left: 24rpx;
+}
+.bc_red image{
+  display: inline-block;
+}
+
+/*活动列表*/
+.game-list{
+  background: #f8f8f8;
+  padding-bottom: 20rpx;
+}
+.game-list .show-img{
+  position: relative;
+  display: block;
+  width: 750rpx;
+  height: 380rpx;
+}
+.list-discribe{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 730rpx;
+  height: 100rpx;
+  line-height: 36rpx;
+  font-size: 24rpx;
+  padding: 40rpx 0 0 20rpx;
+  background:linear-gradient(to bottom, rgba(51, 51, 51, 0) 0%, rgba(51, 51, 51, 0.6) 100%);
+  z-index: 50;
+}
+.list-discribe text{
+  margin-left:10rpx; 
+  color: #fff;
+}
+.act-status{
+  display: inline-block;
+  height: 36rpx;
+  line-height: 36rpx;
+  padding: 0 12rpx;
+  font-size: 24rpx;
+  background: #5fc155;
+  text-align: center;
+  color: #fff;
+  border-radius: 8rpx;
+}
+.list-info{
+  display: block;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #fff;
+  font-weight: bold;
+  font-size: 36rpx;
+}
+.list-img{
+  width: 750rpx;
+  height: 380rpx;
+}
+.location image{
+  width: 32rpx;
+  height: 40rpx;
+}
+.waiting image{
+  width: 33rpx;
+  height: 32rpx;
+}
+.info{
+  padding: 20rpx 30rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 26rpx;
+  background: #fff;
+}
+.info view,.location{
+  vertical-align: middle;
+  color: #009ff0
+}
+.info image{
+  vertical-align: middle;
+}

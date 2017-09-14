@@ -1,0 +1,19 @@
+<!--pages/group/group.wxml-->
+<include src="../nav/nav.wxml" />
+<view class="hr"></view>
+<view class="group">
+  <view class="select">
+    <picker bindchange="bindPickerChange" value="{{act}}" range="{{array}}">
+      <view>
+        赛事名称：
+        {{array[act]}}
+        <image class="fr" src="../image/select.png"></image>
+      </view>
+    </picker>
+  </view>
+  <view class="data" wx:for="{{groupdata}}" bindtap="groupList">
+    {{item.name}}
+    <image class="fr" src="../image/select.png"></image>
+  </view>
+  <view class="noData">暂无数据</view>
+</view>

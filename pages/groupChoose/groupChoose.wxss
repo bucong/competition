@@ -1,0 +1,41 @@
+/* pages/groupChoose/groupChoose.wxss */
+.group{
+  background: #fff;
+  margin: 30rpx 0;
+  padding-left: 30rpx;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+}
+.group>view{
+  line-height: 84rpx;
+}
+.group input{
+  height: 84rpx;
+  font-size: 30rpx;
+}
+.select{
+  height: 84rpx;
+  position: relative;
+  border-top: 1px solid #c1c1c1;
+}
+.select picker{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 30rpx;
+}
+.select image{
+  width: 32rpx;
+  height: 50rpx;
+  vertical-align: middle;
+  margin: 20rpx 30rpx;
+}
+button{
+  height: 88rpx;
+  line-height: 88rpx;
+  background: #f00;
+  font-size: 36rpx;
+  color: #fff;
+  width: 690rpx;
+}

@@ -1,0 +1,16 @@
+<!--pages/pay/pay.wxml-->
+<include src="../nav/nav.wxml" />
+<view class="hr"></view>
+<view class="pay">
+  <view>选择支付方式:</view>
+  <view class="pay-style" bindtap="wxpay">
+    <image class="icon" src="../image/wxzf.jpg"></image>
+    微信支付
+    <image class="select" src="../image/select.png"></image>
+  </view>
+  <view class="pay-style" bindtap="otherpay">
+    <image class="icon" src="../image/pydf.png"></image>
+    朋友代付
+    <image class="select" src="../image/select.png"></image>
+  </view>
+</view>

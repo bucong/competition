@@ -1,0 +1,22 @@
+/* pages/addfriend/addfriend.wxss */
+.add-friend{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  padding-left: 30rpx;
+  background: #fff;
+}
+.add-friend view:nth-child(1){
+  border-bottom: 1px solid #c1c1c1;
+}
+input{
+  height: 84rpx;
+  font-size: 30rpx;
+}
+button{
+  width: 690rpx;
+  background: #f00;
+  color: #fff;
+  font-size: 36rpx;
+}

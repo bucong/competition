@@ -1,0 +1,7 @@
+<!--pages/signSuccess/signSuccess.wxml-->
+<icon type="success" size="100" />
+<view>报名成功</view>
+<view>
+  <navigator url="../index/index" redirect>返回首页</navigator>
+  <navigator url="../search/search" redirect>查看报名记录</navigator> 
+</view>

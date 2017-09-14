@@ -1,0 +1,92 @@
+/* pages/sign/sign.wxss */
+page{
+  background: #f8f8f8;
+}
+.title{
+  height: 94rpx;
+  line-height: 94rpx;
+  text-indent: 30rpx;
+  font-size: 36rpx;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+}
+.actInfo{
+  padding-left: 30rpx;
+  margin-bottom: 30rpx;
+  border-bottom: 1px solid #c1c1c1;
+  background: #fff;
+}
+.actInfo view{
+  height: 84rpx;
+  line-height: 84rpx;
+  font-size: 30rpx;
+  border-top: 1px solid #c1c1c1;
+}
+.actInfo view:first-child{
+  border: none;
+}
+.actInfo text{
+  color: #666;
+}
+.select{
+  position: relative;
+}
+.select picker{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.select image{
+  width: 32rpx;
+  height: 50rpx;
+  vertical-align: middle;
+  margin: 20rpx 30rpx;
+}
+.sign-people{
+  padding-left: 30rpx;
+  background: #fff;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  position: relative;
+}
+.sign-people .sign-title{
+  font-size: 30rpx;
+  color: #333;
+}
+.sign-people .add{
+  position: absolute;
+  top: 10rpx;
+  right: 24rpx;
+  height: 64rpx;
+  width: 64rpx;
+  text-indent: 0;
+  line-height: 64rpx;
+  text-align: center;
+  color: #fff;
+  background: #66cc66;
+  border-radius: 50%;
+  font-size: 48rpx;
+}
+.sign-people view{
+  height: 84rpx;
+  line-height: 84rpx;
+  color: #666;
+  font-size: 26rpx;
+  border-top: 1px solid #c1c1c1;
+}
+.sign-people view:first-child{
+  border: none;
+}
+button{
+  position: fixed;
+  bottom: 0;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #f00;
+  font-size: 36rpx;
+  color: #fff;
+  width: 750rpx;
+  border: none;
+  border-radius: 0;
+}

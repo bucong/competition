@@ -1,0 +1,48 @@
+<!--index.wxml-->
+<include src="../nav/nav.wxml" />
+<!-- <template is="nav" data="{{title: 'nav'}}"/> -->
+<!--头部导航-->
+<view class="head flex ar">
+  <view data-head="time" class="{{head=='time' ? 'bc_red':''}}" bindtap="nav">时间</view>
+  <view data-head="actType" class="{{head=='actType' ? 'bc_red':''}}" bindtap="nav">类型</view>
+  <view data-head="status" class="{{head=='status' ? 'bc_red':''}}" bindtap="nav">状态</view>
+</view>
+<view class="head-ass" bindtap="hide" style="display:{{showTime}};">
+   <view data-time_num="{{item.id}}" class="flex-item {{time_num==item.id ? 'bc_red':''}}" bindtap="click" wx:for="{{time}}">
+    <image src="../image/choose.png"></image>
+    {{item.name}}
+  </view>
+</view>
+<view class="head-ass" bindtap="hide" style="display:{{showType}};">
+   <view data-type_num="{{item.id}}" class="flex-item {{type_num==item.id ? 'bc_red':''}}" bindtap="click" wx:for="{{actType}}"> 
+    <image src="../image/choose.png"></image>
+    {{item.name}}
+   </view> 
+</view>
+<view class="head-ass" bindtap="hide" style="display:{{showStatus}};">
+  <view data-status_num="{{item.id}}" class="flex-item {{status_num==item.id ? 'bc_red':''}}" bindtap="click" wx:for="{{status}}">
+    <image src="../image/choose.png"></image>
+    {{item.name}}
+  </view>
+</view>
+<!--活动列表-->
+<view class="game-list" wx:for="{{act}}">
+  <navigator class="show-img" url="../actDetail/actDetail?id={{item.id}}">
+    <image class="list-img" src="{{ip}}{{item.imgs[0]}}"></image>
+    <view class="list-discribe">
+      <view class="act-status">{{item.status}}</view>
+      <text>{{item.matchStart}}{{item.matchEnd}}</text>
+      <text class="list-info">{{item.name}}</text>
+    </view>
+  </navigator>
+  <view class="flex bw info">
+    <navigator url="../map/map" class="location">
+      <image src="../image/location.png"></image>
+      {{item.address}}
+    </navigator>
+    <view class="waiting">
+      <image src="../image/waiting.png"></image>
+      {{item.matchStartStr}}
+    </view>
+  </view>
+</view>

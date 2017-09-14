@@ -1,0 +1,126 @@
+/* pages/actDetail/actDetail.wxss */
+.show-img{
+  position: relative;
+  display: block;
+  width: 750rpx;
+  height: 380rpx;
+}
+.list-discribe{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 730rpx;
+  height: 100rpx;
+  padding: 40rpx 0 0 20rpx;
+  background:linear-gradient(to bottom, rgba(51, 51, 51, 0) 0%, rgba(51, 51, 51, 0.6) 100%);
+  z-index: 50;
+}
+.act-status{
+  display: inline-block;
+  height: 36rpx;
+  line-height: 36rpx;
+  padding: 0 12rpx;
+  font-size: 24rpx;
+  background: #5fc155;
+  color: #fff;
+  border-radius: 8rpx;
+}
+.time-part{
+  display: inline-block;
+  font-size: 24rpx;
+  color: #fff;
+  margin-left: 10rpx;
+}
+.list-info{
+  display: block;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #fff;
+  font-weight: bold;
+  font-size: 36rpx;
+}
+.list-img{
+  width: 750rpx;
+  height: 380rpx;
+}
+.detail-info{
+  padding-left: 30rpx;
+  border-bottom: 1px solid #c1c1c1;
+  background: #fff;
+}
+.detail-info view{
+  line-height: 60rpx;
+  border-top: 1px solid #c1c1c1;
+}
+.detail-info view:first-child{
+  border: none;
+}
+.detail-info text{
+  font-size: 24rpx;
+  vertical-align: middle;
+}
+.detail-info image{
+  width: 40rpx;
+  height: 38rpx;
+  vertical-align: middle;
+}
+.tab-title{
+  display: inline-block;
+  width: 120rpx;
+  color: #333;
+}
+.detail-info navigator{
+  display: inline;
+}
+.detail-info .group{
+  margin-left: 120rpx;
+  border: none;
+}
+.tab-cont{
+  color: #999;
+}
+.detail-info .price{
+  margin-right: 30rpx;
+  font-size: 36rpx;
+  color: #fd3600;
+}
+.tab{
+  padding-top: 20rpx;
+  background: #f8f8f8;
+}
+.tab-nav{
+  height: 76rpx;
+  line-height: 76rpx;
+  font-size: 24rpx;
+  color: #666;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+}
+.tab-nav view{
+  height: 74rpx;
+  width: 185rpx;
+  text-align: center;
+}
+.bc_red{
+  color: #f00;
+  border-bottom: 1px solid #f00;
+}
+.nav-ass{
+  margin-bottom: 100rpx;
+  padding: 30rpx;
+  text-indent: 2em;
+  font-size: 26rpx;
+  line-height: 50rpx;
+}
+button{
+  position: fixed;
+  bottom: 0;
+  width: 750rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #f00;
+  font-size: 36rpx;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+}

@@ -1,0 +1,24 @@
+<!--pages/otherpay/otherpay.wxml-->
+<view class="show-img">
+  <image class="list-img" src="../image/list{{img}}.jpg"></image>
+    <view class="list-discribe">
+      <view class="act-status">{{act_status}}</view>
+      <text class="time">{{time_part}}</text>
+      <text class="list-info">{{list_info}}</text>
+    </view>
+</view>
+<view class="help">
+  <view class="title">
+    <image src="../image/help.png"></image>
+    <view>
+      <text>助力</text>
+      <text>{{time}}</text>
+      <text>{{name}}</text>
+    </view>
+  </view>
+  <view class="declar">参赛宣言：{{showDeclar}}</view>
+  <view class="change fr" bindtap="change">换一换</view>
+  <view class="clear"></view>
+</view>
+<button bindtap="sub">提交</button>
+<image class="share" src="../image/share.png" bindtap="hide" style="display:{{share}}"></image>

@@ -1,0 +1,50 @@
+/* pages/payment/payment.wxss */
+page{
+  background: #f8f8f8;
+}
+.hr{
+  border-top: 1px solid #c1c1c1;
+}
+.group{
+  margin-top: 30rpx;
+  background: #fff;
+  line-height: 84rpx;
+  border-top: 1px solid #c1c1c1;
+  font-size: 30rpx;
+  border-bottom: 1px solid #c1c1c1;
+}
+.record image{
+  width: 32rpx;
+  height: 50rpx;
+}
+.record{
+  margin-left: 30rpx;
+  border-top: 1px solid #c1c1c1;
+}
+.record view:nth-child(1){
+  width: 440rpx;
+}
+.record:first-child{
+  border: none;
+}
+.record view:nth-child(3){
+  padding-left: 60rpx;
+  width: 180rpx;
+}
+.norecord{
+  height: 432rpx;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+.norecord icon{
+  display: block;
+  width: 200rpx;
+  margin: 60rpx auto;
+}
+.norecord text{
+  display: block;
+  text-align: center;
+  color: #888;
+  font-size: 28rpx;
+}

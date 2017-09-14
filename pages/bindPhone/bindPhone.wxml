@@ -1,0 +1,15 @@
+<!--pages/bindPhone/bindPhone.wxml-->
+<include src="../nav/nav.wxml" />
+<view class="hr"></view>
+<view class="form">
+  <view class="flex">
+    <text>手机号</text>
+    <input type="number" bindinput="phoneCheck" />
+  </view>
+  <view class="flex">
+    <text>验证码</text>
+    <input type="number" bindinput="checkNum" />
+    <view class="send-check" style="color:{{color}};border:1px solid {{color}}" bindtap="sendCheck">{{status}}</view>
+  </view>
+</view>
+<button class="sub">确定</button>

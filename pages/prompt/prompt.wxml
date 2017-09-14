@@ -1,0 +1,4 @@
+<!--pages/prompt/prompt.wxml-->
+<icon type="{{icon}}" size="100" />
+<view>{{prompt}}</view>
+<navigator url="../index/index" redirect>返回首页</navigator>

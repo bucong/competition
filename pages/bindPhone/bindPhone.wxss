@@ -1,0 +1,42 @@
+/* pages/bindPhone/bindPhone.wxss */
+.form{
+  margin: 30rpx 0;
+  background: #fff;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  padding-left: 30rpx;
+}
+.form view{
+  line-height: 84rpx;
+  border-top: 1px solid #c1c1c1;
+  font-size: 30rpx;
+}
+.form view:first-child{
+  border: none;
+}
+.form view input{
+  width: 400rpx;
+  height: 80rpx;
+  display: inline-block;
+}
+.form text{
+  display: inline-block;
+  width: 120rpx;
+}
+.form .send-check{
+  display: inline-block;
+  width: 172rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 26rpx;
+  background: #fff;
+  text-align: center;
+  border-radius: 10rpx;
+}
+.sub{
+  width: 690rpx;
+  color: #fff;
+  background: #f00;
+  font-size: 36rpx;
+  height: 88rpx;
+}

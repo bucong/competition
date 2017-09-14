@@ -1,0 +1,38 @@
+/* pages/addpeople/addpeople.wxss */
+page{
+  background: #f8f8f8;
+}
+.info{
+  margin-top: 30rpx;
+  background: #fff;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  padding-left: 30rpx;
+  font-size: 30rpx;
+  color: #757575;
+}
+.info view{
+  height: 84rpx;
+  line-height: 84rpx;
+  border-top: 1px solid #C1C1C1;
+}
+.info view:first-child{
+  border: none;
+}
+.info input{
+  height: 82rpx;
+  color: #000;
+}
+.switch{
+  position: relative;
+}
+.switch switch{
+  position: absolute;
+  right: 10rpx;
+}
+button{
+  margin: 30rpx;
+  background: #f00;
+  color: #fff;
+  font-size: 36rpx;
+}

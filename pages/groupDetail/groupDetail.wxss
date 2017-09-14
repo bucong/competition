@@ -1,0 +1,70 @@
+/* pages/groupDetail/groupDetail.wxss */
+.info{
+  margin-top: 30rpx;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  padding-left: 30rpx;
+  height: 256rpx;
+  background: #fff;
+}
+.info view{
+  height: 84rpx;
+  color: #666;
+  line-height: 84rpx;
+  font-size: 26rpx;
+  border-top: 1px solid #c1c1c1;
+}
+.info view:first-child{
+  border: none;
+}
+.info text{
+  margin-left: 60rpx;
+}
+.add-friend{
+  margin-top: 30rpx;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  padding-left: 30rpx;
+  height: 84rpx;
+  line-height: 84rpx;
+  background: #fff;
+  font-size: 30rpx;
+}
+.add{
+  margin: 10rpx 20rpx 0 0;
+  height: 64rpx;
+  width: 64rpx;
+  text-indent: 0;
+  line-height: 64rpx;
+  text-align: center;
+  color: #fff;
+  background: #66cc66;
+  border-radius: 50%;
+  font-size: 48rpx;
+}
+.mod-form{
+  margin-top: 30rpx;
+  background: #fff;
+  font-size: 30rpx;
+  line-height: 84rpx;
+}
+.mod-title{
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  color: #333;
+  background: #f4f4f4;
+  padding-left: 30rpx;
+}
+.mod-title text:nth-child(1){
+  display: inline-block;
+  width: 40%;
+}
+.mod-content view{
+  padding-left: 30rpx;
+  color: #666;
+  border-bottom: 1px solid #c1c1c1;
+}
+.mod-content text:nth-child(1){
+  display: inline-block;
+  width: 30%;
+}

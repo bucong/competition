@@ -1,0 +1,37 @@
+/* pages/person/person.wxss */
+page{
+  background: #f8f8f8;
+}
+.hr{
+  border-top: 1px solid #c1c1c1;
+}
+.info{
+  margin: 30rpx 0;
+  height: 448rpx;
+  background: #fff;
+  padding-left: 30rpx;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+}
+.info view{
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 30rpx;
+  border-top: 1px solid #c1c1c1;
+}
+.info view:first-child{
+  border: none;
+}
+.select image{
+  width: 32rpx;
+  height: 50rpx;
+  vertical-align: middle;
+  margin: 20rpx 30rpx;
+}
+button{
+  width: 690rpx;
+  height: 88rpx;
+  color: #fff;
+  font-size: 36rpx;
+  background: #f00;
+}

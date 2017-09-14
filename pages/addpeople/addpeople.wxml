@@ -1,0 +1,36 @@
+<!--pages/addpeople/addpeople.wxml-->
+<include src="../nav/nav.wxml" />
+<view class="hr"></view>
+<form catchsubmit="formSubmit">
+  <view class="info">
+    <view>
+      <input type="text" name="name" value="{{name}}" />
+    </view>
+    <view>
+      <input type="number" name="idCard" value="{{idCard}}" />
+    </view>
+    <view>
+      <input type="number" name="phone" value="{{phone}}" />
+    </view>
+    <view>
+      <input type="text" name="emergencyContact" value="" placeholder="输入紧急联系人姓名" />
+    </view>
+    <view>
+      <input type="number" name="emergencyPhone" value="" placeholder="输入紧急联系人电话" />
+    </view>
+    <view>
+      <input type="text" name="sex" value="{{sex}}" />
+    </view>
+    <view class="switch">
+      是否阅读风险告知
+      <switch name="read" type="switch" />
+    </view>
+    <view>
+      <input type="text" name="remark" value="" placeholder="输入备注（非必填）" />
+    </view>
+    <view>
+      请填写真实信息，提交报名后不能修改
+    </view>
+  </view>
+  <button form-type="submit">提交</button>
+</form>

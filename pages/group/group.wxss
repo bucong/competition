@@ -1,0 +1,29 @@
+/* pages/group/group.wxss */
+.group{
+  margin-top: 30rpx;
+  background: #fff;
+  line-height: 84rpx;
+  padding-left: 30rpx;
+  font-size: 30rpx;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  scrollbar-base-color: transparent;
+}
+.group image{
+  margin-top: 14rpx;
+  margin-right: 24rpx;
+  width: 32rpx;
+  height: 50rpx;
+}
+.noData{
+  display: block;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-bottom: 90rpx;
+  text-align: center;
+  font-size: 24rpx;
+}
+.data{
+  color: blue;
+  border-top: 1px solid #c1c1c1;
+}

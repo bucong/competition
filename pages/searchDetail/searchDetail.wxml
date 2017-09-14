@@ -1,0 +1,54 @@
+<!--pages/searchDetail/searchDetail.wxml-->
+<include src="../nav/nav.wxml" />
+<view class="hr"></view>
+<view class="title">{{act_name}}</view>
+<view class="info">
+  <view>
+    <text>组别:</text>
+    <text>{{group}}</text>
+  </view>
+  <view>
+    <text>活动时间:</text>
+    <text>{{act_time}}</text>
+  </view>
+  <view>
+    <text>姓名:</text>
+    <text>{{name}}</text>
+  </view>
+  <view>
+    <text>证件号码:</text>
+    <text>{{idCard}}</text>
+  </view>
+  <view>
+    <text>手机号码:</text>
+    <text>{{phone}}</text>
+  </view>
+  <view>
+    <text class="long">是否阅读风险告知:</text>
+    <text>{{isRead}}</text>
+  </view>
+  <view>
+    <text>状态:</text>
+    <text class="red">{{status}}</text>
+  </view>
+  <view style="display:{{isSign}}">
+    <text>签到状态:</text>
+    <text class="red">{{sign}}</text>
+  </view>
+  <view style="display:{{isSign}}">
+    <text>物资领取二维码:</text>
+    <image bindtap="showQrcode" src="../image/qrcode.png"></image>
+  </view>
+</view>
+<view class="hr"></view>
+<view class="togroup" bindtap="toGroup" style="display:{{isPay}}">
+  我要组队
+  <image class="fr" src="../image/select.png"></image>
+</view>
+<view class="meng" style="display:{{meng}}">
+  <view>
+    <text>二维码</text>
+    <image src="../image/qrcode.png"></image>
+    <text bindtap="back">返回</text>
+  </view>
+</view>

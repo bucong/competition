@@ -1,0 +1,20 @@
+<!--pages/search/search.wxml-->
+<include src="../nav/nav.wxml" />
+<view class="head">
+  <view class="flex">
+    <input type="text" placeholder="输入证件号码" />
+    <icon type="waiting" color="#fff" size="18" />
+  </view>
+</view>
+<view class="group">
+  <view class="record" bindtap="actList" wx:for="{{act}}">
+      <text>{{item.act_name}}[{{item.act_group}}]</text>
+      <image class="fr" src="../image/select.png"></image>
+  </view>
+  <view class="norecord" style="display:{{norecord}}">
+    <icon type="warn" size="100" />
+    <text>没有数据！</text>
+  </view>
+  
+</view>
+

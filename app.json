@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/groupDetail/groupDetail",
+    "pages/person/person",
+    "pages/pay/pay",
+    "pages/addpeople/addpeople",
+    "pages/sign/sign",
+    "pages/addfriend/addfriend",
+    "pages/bindPhone/bindPhone",
+    "pages/group/group",
+    "pages/payment/payment",
+    "pages/groupChoose/groupChoose",
+    "pages/searchDetail/searchDetail",
+    "pages/prompt/prompt",
+    "pages/signSuccess/signSuccess",
+    "pages/otherpay/otherpay",
+    "pages/nav/nav",
+    "pages/actDetail/actDetail",
+    "pages/search/search",
+    "pages/map/map",   
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "活动列表",
+    "navigationBarTextStyle":"black"
+  }
+}
